@@ -1,7 +1,7 @@
 This repo is a fork from main repo and will usually have new features bundled faster than main repo (and maybe bundle some bugs, too).
 
 # Unofficial Facebook Chat API
-<img alt="version" src="https://img.shields.io/github/package-json/v/miraiPr0ject/fca-xuyen-get?label=github&style=flat-square">
+<img alt="version" src="https://img.shields.io/github/package-json/v/miraiPr0ject/fca-Chery-remake?label=github&style=flat-square">
 
 Facebook now has an official API for chat bots [here](https://developers.facebook.com/docs/messenger-platform).
 
@@ -14,16 +14,16 @@ See [below](#projects-using-this-api) for projects using this API.
 See the [full changelog](/CHANGELOG.md) for release details.
 
 ## Install
-If you just want to use fca-xuyen-get, you should use this command:
+If you just want to use fca-Chery-remake, you should use this command:
 ```bash
-npm install fca-xuyen-get
+npm install fca-Chery-remake
 ```
-It will download `fca-xuyen-get` from NPM repositories
+It will download `fca-Chery-remake` from NPM repositories
 
 ### Bleeding edge
 If you want to use bleeding edge (directly from github) to test new features or submit bug report, this is the command for you:
 ```bash
-npm install fca-xuyen-get
+npm install fca-Chery-remake
 ```
 
 ## Testing your bots
@@ -31,7 +31,7 @@ If you want to test your bots without creating another account on Facebook, you 
 
 ## Example Usage
 ```javascript
-const login = require("fca-xuyen-get");
+const login = require("fca-Chery-remake");
 
 // Create simple echo bot
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
@@ -70,7 +70,7 @@ __Tip__: to find your own ID, you can look inside the cookies. The `userID` is u
 
 __Example (Basic Message)__
 ```js
-const login = require("fca-xuyen-get");
+const login = require("fca-Chery-remake");
 
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
     if(err) return console.error(err);
@@ -83,7 +83,7 @@ login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
 
 __Example (File upload)__
 ```js
-const login = require("fca-xuyen-get");
+const login = require("fca-Chery-remake");
 
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
     if(err) return console.error(err);
@@ -107,7 +107,7 @@ __Example__
 
 ```js
 const fs = require("fs");
-const login = require("fca-xuyen-get");
+const login = require("fca-Chery-remake");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"};
 
@@ -131,7 +131,7 @@ __Example__
 
 ```js
 const fs = require("fs");
-const login = require("fca-xuyen-get");
+const login = require("fca-Chery-remake");
 
 // Simple echo bot. It will repeat everything that you say.
 // Will stop when you say '/stop'
